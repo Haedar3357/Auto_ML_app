@@ -1,7 +1,4 @@
 
----
-
-```markdown
 # AutoML Streamlit App with AI Assistant
 
 This project is an interactive web application built with **Streamlit** that enables users to upload and analyze datasets, build machine learning models using **PyCaret**, and evaluate model performance—all through a clean visual interface. It also includes an integrated **AI assistant** powered by large language models (LLMs) to help guide users during the process.
@@ -66,17 +63,19 @@ Install all dependencies using:
 
 ```bash
 pip install -r requirements.txt
-How to Run the App
+```
+
+
 Run the application using the following command:
 
-bash
-نسخ
-تحرير
+```bash
 streamlit run app.py
-Notes
-To use the AI assistant feature, replace the placeholder API_KEY with your own key from a provider such as OpenRouter.
+```
+
+**Notes:**
+To use the AI assistant feature, replace the placeholder *API_KEY* with your own key from a provider such as OpenRouter.
 
 The best model will be saved locally as best_model.pkl.
 
-License
+## License
 This project is open-source and available for educational and research purposes.
